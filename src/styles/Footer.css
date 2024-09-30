@@ -1,0 +1,32 @@
+.footer {
+  font-size: 14px;
+  text-align: center;
+  font-family: monospace;
+}
+
+#guuter {
+  border-top: 2px solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 1rem;
+  background-color: ghostwhite;
+  border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff) 1;
+  border-image-slice: 1;
+}
+
+#guuter.lamp-effect {
+  animation: lamp-effect 3s infinite;
+}
+
+.footer .social-links a {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  transition: 0.3s;
+}

@@ -1,0 +1,18 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+@keyframes lamp-effect {
+  0% {
+    border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff) 1;
+  }
+  33% {
+    border-image: linear-gradient(to right, #00ff00, #0000ff, #ff0000) 1;
+  }
+  66% {
+    border-image: linear-gradient(to right, #0000ff, #ff0000, #00ff00) 1;
+  }
+  100% {
+    border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff) 1;
+  }
+}

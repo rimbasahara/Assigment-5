@@ -1,0 +1,51 @@
+nav {
+  font-family: monospace;
+}
+
+.active .nav-link {
+  color: #f16751;
+  animation: color-change 1.5s infinite;
+}
+
+.navbar-nav > li {
+  margin: 0 10px;
+}
+
+.navbar {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  background-color: ghostwhite;
+  border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff) 1;
+  border-image-slice: 1;
+}
+
+.text-with-rgb {
+  animation: color-change 1.5s infinite;
+}
+
+.neons {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #ff0000, 0 0 10px #0000ff;
+  }
+  to {
+    text-shadow: 0 0 30px #0000ff, 0 0 10px #00ff00;
+  }
+}

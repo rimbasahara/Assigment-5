@@ -1,0 +1,15 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.skill-grid {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px; /* adjust the width to your liking */
+  margin: 10px;
+}
