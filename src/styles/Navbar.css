@@ -21,6 +21,10 @@ nav {
   border-image-slice: 1;
 }
 
+.lamp-effect {
+  animation: lamp-effect 3s infinite;
+}
+
 .text-with-rgb {
   animation: color-change 1.5s infinite;
 }
